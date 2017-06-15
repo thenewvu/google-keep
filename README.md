@@ -1,9 +1,9 @@
 ## The problem I have
 
-I need a note-taking app that matches below requirements:
+I need a note-taking app that meets below requirements:
 
 * Support platforms: Mac, Arch Linux, Android, iOS
-* Support "Always on top"
+* Support "Always on top" on desktop platforms
 * Support cloud synchronization
 * Minimal text formatting
 

@@ -15,6 +15,12 @@ It hides all unnecessary parts of Google Keep that personally I don't need them 
 
 ![screenshot](/screenshot.png?raw=true)
 
+## Installation
+
+1. Clone this repo
+2. Open Chrome/Settings/Extensions, turn on `Developer mode`, press `Load unpacked extension...` and pick the directory where the repo was cloned to.
+3. Open a new tab, press "Apps" on the bookmark bar and finally open `Google Keep`.
+
 ## Legal
 
 "Google Keep" and all similar trademarks are belong to Google or their owners. I don't own anything except source code in this repo.

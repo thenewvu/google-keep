@@ -7,9 +7,7 @@ chrome.app.runtime.onLaunched.addListener(() => {
         alwaysOnTop: true,
         visibleOnAllWorkspaces: true,
         frame: {
-          type: 'chrome',
-          inactiveColor: '#676767',
-          color: '#474747'
+          type: 'none'
         }
       },
       createdWindow => {

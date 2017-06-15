@@ -1,0 +1,19 @@
+{
+   "app": {
+      "background": {
+         "scripts": [ "background.js" ]
+      }
+   },
+   "description": "",
+   "icons": {
+      "128": "assets/icon_128.png",
+      "16": "assets/icon_16.png"
+   },
+   "manifest_version": 2,
+   "minimum_chrome_version": "38",
+   "name": "Google Keep",
+   "permissions": ["webview", "alwaysOnTopWindows", "storage",  "https://*.google.com/*"],
+   "short_name": "Google Keep",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.0.1"
+}

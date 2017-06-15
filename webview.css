@@ -5,3 +5,7 @@
 #ognwrapper {
   display: none !important;
 }
+
+::-webkit-scrollbar {
+  display: none;
+}

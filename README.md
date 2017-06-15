@@ -13,7 +13,15 @@ Google Keep matches almost all above requirements except "Always on top", the li
 
 It hides all unnecessary parts of Google Keep that personally I don't need them in daily work, such as the banner and the scrollbar. It also has the default font face is "Operator Mono", a premium font that makes me feel good.
 
-![screenshot](/screenshot.png?raw=true)
+---
+
+![OS X](/screenshot-osx.png?raw=true)
+
+---
+
+![Linux](/screenshot-linux.png?raw=true)
+
+---
 
 ## Installation
 

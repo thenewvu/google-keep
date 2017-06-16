@@ -17,10 +17,11 @@
   margin: 4px;
   opacity: 0;
   transition: opacity 1s ease-in-out;
-  -webkit-app-region: drag;
 }
 #draggable:hover {
   opacity: 1;
+  -webkit-app-region: drag;
+}
 
 #shadow-top {
   position: fixed;

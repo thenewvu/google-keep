@@ -7,6 +7,7 @@
   display: block;
   width: 100%;
   height: 100%;
+  box-sizing: border-box;
 }
 
 #draggable {
@@ -20,4 +21,47 @@
 }
 #draggable:hover {
   opacity: 1;
+
+#shadow-top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 5px;
+  pointer-events: none;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0) 100%);
+}
+
+#shadow-bottom {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 5px;
+  pointer-events: none;
+  background: linear-gradient(to top, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0) 100%);
+}
+
+#shadow-right {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 5px;
+  height: 100%;
+  pointer-events: none;
+  background: linear-gradient(to left, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0) 100%);
+}
+
+#shadow-left {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 5px;
+  height: 100%;
+  pointer-events: none;
+  background: linear-gradient(to right, rgba(0,0,0,0.15) 0%, rgba(0,0,0,0) 100%);
 }

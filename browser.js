@@ -4,7 +4,5 @@ webview.addEventListener('loadstop', () => {
   webview.insertCSS({
     file: 'webview.css'
   })
-  webview.executeScript({
-    file: 'webview.js'
-  })
+  webview.setZoom(0.7)
 })

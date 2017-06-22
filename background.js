@@ -5,7 +5,6 @@ chrome.app.runtime.onLaunched.addListener(() => {
       {
         outerBounds,
         alwaysOnTop: true,
-        visibleOnAllWorkspaces: true,
         frame: {
           type: 'none'
         }

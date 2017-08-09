@@ -2,6 +2,12 @@
   display: none !important;
 }
 
+.notes-container div:nth-child(2) div:nth-child(2).invisible {
+  display: none !important;
+}
+
 ::-webkit-scrollbar {
   display: none;
 }
+
+

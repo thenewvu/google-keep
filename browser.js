@@ -7,6 +7,7 @@
     webview.insertCSS({ file: 'webview.css' })
     webview.setZoom(0.8)
     toggleAppbar()
+    toggleTakeNode()
   })
 
   document.onkeydown = e => {
@@ -17,12 +18,23 @@
 
   toolAppbar.onclick = e => {
     toggleAppbar()
+    toggleTakeNode()
   }
 
   function toggleAppbar() {
     webview.executeScript({
       code: `
-    document.getElementById('ognwrapper')
+    document.querySelector('#ognwrapper')
+      .classList.toggle('invisible')
+    `
+    })
+  }
+
+  function toggleTakeNode() {
+    webview.executeScript({
+      code: `
+    document.querySelector(
+      '.notes-container div:nth-child(2) div:nth-child(2)')
       .classList.toggle('invisible')
     `
     })

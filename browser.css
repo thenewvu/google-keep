@@ -10,17 +10,29 @@
   box-sizing: border-box;
 }
 
-#draggable {
+#toolbar {
+  display: none;
   position: fixed;
-  top: 0;
-  right: 0;
-  margin: 4px;
-  opacity: 0;
+  top: 4px;
+  right: 4px;
   transition: opacity 0.2s ease-in-out;
-  -webkit-app-region: drag;
+  background-color: rgba(249, 249, 249, 1);
+  border: solid thin whitesmoke;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  cursor: pointer;
 }
-#draggable:hover {
-  opacity: 1;
+#toolbar.visible {
+  display: inline-block;
+}
+#toolbar svg {
+  margin: 4px;
+  background-color: transparent;
+  stroke: black;
+}
+
+#tool-drag {
+  -webkit-app-region: drag;
 }
 
 #shadow-top {
